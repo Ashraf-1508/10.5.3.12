@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.5)  9 JAN 2024 14:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.5)  10 JAN 2024 15:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1197,7 +1197,12 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 4
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-)) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+))
+Overfull \hbox (76.57532pt too wide) detected at line 201
+[]
+ []
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
@@ -1214,7 +1219,7 @@ Package rerunfilecheck Info: Checksums for `10.5.2.12.out':
 Here is how much of TeX's memory you used:
  29109 strings out of 478287
  574279 string characters out of 5849290
- 828818 words of memory out of 5000000
+ 829818 words of memory out of 5000000
  46693 multiletter control sequences out of 15000+600000
  535686 words of font info for 166 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -1225,7 +1230,7 @@ e/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist
 1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on 10.5.2.12.pdf (1 page, 42693 bytes).
+Output written on 10.5.2.12.pdf (1 page, 42311 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
