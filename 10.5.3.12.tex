@@ -102,7 +102,7 @@
 %  \logo{
 Assignment-1 
 
-\large{EE:1205 Signals and Systems}
+\large{EE:1205 (Signals and Systems)}
 
 Indian Institute of Technology, Hyderabad
 %  }
@@ -139,7 +139,7 @@ EE23BTECH11041
 % \author{....lastname \thanks{...} \thanks{...} }
 %                     ^------------^------------^----Do not want these spaces!
 %
-% a space would be appended to the last name and coud cause every name on that
+% a space would be appended to the last name and could cause every name on that
 % line to be shifted left slightly. This is one of those "LaTeX things". For
 % instance, "\textbf{A} \textbf{B}" will typeset as "A B" not "AB". To get
 % "AB" then you have to do: "\textbf{A}\textbf{B}"
@@ -187,21 +187,17 @@ EE23BTECH11041
 \renewcommand{\thefigure}{\theenumi}
 \renewcommand{\thetable}{\theenumi}
 %\renewcommand{\theequation}{\theenumi}
-\section*{\textit{\textbf{Question:}}}
- Two APs have the same common difference. The difference between their hundredth terms is 100. What is the difference between their thousandth terms?
+\section*{\textit{\textbf{Question 10.5.3.12:}}}
+ Find the sum of the first 40 positive integers divisible by 6.
 \section*{\textit{\textbf{Solution:}}}
 \input{Tables/table1}
-let $x_1(n)$ and $x_2(n)$ be the 2 APs and d be the common difference for both APs 
+The first 40 positive integers that are divisible by 6 are 6,12,18,24…
+
+x(0)=6 and d=6
 \begin{align}
-as: x(n) &= x(0) + nd\\
-x_1(100) &= x_1(0) + 100d\\
-x_2(100) &= x_2(0) + 100d\\
-x_1(100) - x_2(100) &= (x_1(0) + 100d)-(x_2(0) + 100d) = x_1(0)-x_2(0) \\
-x_1(0) - x_2(0) &= 100  (given) 
-\end{align}\\
-Now:\\
-$
-x_1(1000) - x_2(1000)= (x_1(0) + 1000d) - (x_2(0) + 1000d) = x_1(0)-x_2(0) = 100 
-$\\
-Therefore difference between 1000th terms=100
+x(n)&= x(0) +nd\\
+x(40)&=x(0) +40d = 0 + 40*6=240\\
+S_{40} &=\frac{40}{2}[x(1)+x(40)]
+=20[6+240]=4920
+\end{align}
 \end{document}
