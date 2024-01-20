@@ -61,7 +61,7 @@
 %    \usepackage{multirow}                                         %%
 %    \usepackage{hhline}                                           %%
 %    \usepackage{ifthen}                                           %%
-  %optionally (for landscape tables embedded in another document): %%
+  %optionally \brak{for landscape tables embedded in another document}: %%
 %    \usepackage{lscape}     
 %\usepackage{multicol}
 %\usepackage{chngcntr}
@@ -102,7 +102,7 @@
 %  \logo{
 Assignment-1 
 
-\large{EE:1205 (Signals and Systems)}
+\large{EE:1205 \brak{Signals  Systems}}
 
 Indian Institute of Technology, Hyderabad
 %  }
@@ -122,7 +122,7 @@ EE23BTECH11041
 %
 %
 % author names and IEEE memberships
-% note positions of commas and nonbreaking spaces ( ~ ) LaTeX will not break
+% note positions of commas and nonbreaking spaces \brak{ ~ } LaTeX will not break
 % a structure at a ~ so this keeps an author's name from being broken across
 % two lines.
 % use \thanks{} to gain access to the first footnote area
@@ -145,7 +145,7 @@ EE23BTECH11041
 % "AB" then you have to do: "\textbf{A}\textbf{B}"
 % \thanks is no different in this regard, so shield the last } of each \thanks
 % that ends a line with a % and do not let a space in before the next \thanks.
-% Spaces after \IEEEmembership other than the last one are OK (and needed) as
+% Spaces after \IEEEmembership other than the last one are OK \brak{and needed} as
 % you are supposed to have spaces between the names. For what it is worth,
 % this is a minor point as most people would not even notice if the said evil
 % space somehow managed to creep in.
@@ -177,7 +177,6 @@ EE23BTECH11041
 % make the title area
 \maketitle
 
-
 \newpage
 
 %\tableofcontents
@@ -190,14 +189,18 @@ EE23BTECH11041
 \section*{\textit{\textbf{Question 10.5.3.12:}}}
  Find the sum of the first 40 positive integers divisible by 6.
 \section*{\textit{\textbf{Solution:}}}
-\input{Tables/table1}
+\input{tables/table1}
 The first 40 positive integers that are divisible by 6 are 6,12,18,24…
 
-x(0)=6 and d=6
+x\brak{0}=6 and d=6
 \begin{align}
-x(n)&= x(0) +nd\\
-x(40)&=x(0) +40d = 0 + 40*6=240\\
-S_{40} &=\frac{40}{2}[x(1)+x(40)]
-=20[6+240]=4920
+x\brak{n}&= \brak{x\brak{0} +nd}u\brak{n}\\
+x\brak{n}&= \brak{\brak{6+6n}}u\brak{n}\\
+S_n=& \frac{n}2 \brak{2x\brak{0}+ \brak{n-1}d} \\
+S_{40}=&\frac{40}2 \brak{2\brak{6} + \brak{40-1}*6} \\
+    =&20\brak{12+234}\\
+    =&4920\\
+X\brak{z}= &\frac {x\brak{0}} {\brak{1-z^{-1}}} + \frac {dz^{-1}} {\brak{1-z^{-1}}^2} \\
+= &\frac6{1-z^{-1}} + \frac{6z^{-1}}{\brak{1-z^{-1}}^{-2}}
 \end{align}
 \end{document}
