@@ -192,7 +192,7 @@ EE23BTECH11041
 \input{tables/table1}
 
 \begin{align}
-x\brak{n}= &\brak{\brak{6+6n}}\\
+	x\brak{n}= & \brak{6+6n}\brak{u(n)}\\
 X\brak{z}= &\frac {x\brak{0}} {\brak{1-z^{-1}}} + \frac {dz^{-1}} {\brak{1-z^{-1}}^2} \\
 = &\frac6{1-z^{-1}} + \frac{6z^{-1}}{\brak{1-z^{-1}}^{2}}\\
 X(z)=& \frac6{{(1-z^{-1})}^2} , |z|>1\\
@@ -206,7 +206,7 @@ Using contour integration to find the inverse Z-transform:\\
     \implies y(39)=&\dfrac{1}{2\pi j}\oint_{C}Y(z) \;z^{38} \;dz\\
     =&\dfrac{1}{2\pi j}\oint_{C}\dfrac{6z^{38}}{({1-z^{-1})}^{3}} \;dz 
 \end{align}
-We can observe that there only a repeated pole at z=1,
+We can observe that there is only a 3 times repeated pole at z=1,
 \begin{align}
     \implies R&=\dfrac{1}{\brak {m-1}!}\lim\limits_{z\to a}\dfrac{d^{m-1}}{dz^{m-1}}\brak {{(z-a)}^{m}f\brak z}  
 \end{align}

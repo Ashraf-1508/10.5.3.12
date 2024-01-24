@@ -10,8 +10,7 @@ plt.stem(n_values, y_values, linefmt='-', markerfmt='o', basefmt=' ')
 # Add labels and title
 plt.xlabel('n')
 plt.ylabel('6 + 6n')
-plt.title('Stem Plot of 6 + 6n vs n')
+plt.title('Stem Plot of 6+6n vs n')
 
 # Display the plot
 plt.show()
-
