@@ -1,12 +1,12 @@
 import matplotlib.pyplot as plt
+import numpy as np
 
 # Read values from a.dat file
-with open("a.dat", "r") as file:
-    data = [line.split() for line in file]
+data = np.loadtxt("a.dat")
 
-# Extract x and y values
-x_values = [int(row[0]) for row in data]
-y_values = [float(row[1]) for row in data]
+# Extract x and y values using array slicing
+x_values = data[:, 0].astype(int)
+y_values = data[:, 1]
 
 # Create a stem plot
 plt.stem(x_values, y_values, linefmt='-', markerfmt='o', basefmt='')
@@ -18,4 +18,3 @@ plt.title('Stem Plot of x(n) vs n')
 
 # Display the plot
 plt.show()
-
